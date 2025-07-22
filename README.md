@@ -2,7 +2,7 @@
 Hardware implementation of Systolic Array Matrix Multiplication using Verilog/VHDL on Xilinx Vivado. Includes simulation, synthesis reports, and timing analysis.
 # Systolic Array Based Matrix Multiplication (Vivado | Verilog)
 
-This is a hardware design project that implements a 2x2 systolic array architecture for matrix multiplication using Verilog HDL. The entire design was developed and tested using Xilinx Vivado.
+This is a hardware design project that implements a 3x3 systolic array architecture for matrix multiplication using Verilog HDL. The entire design was developed and tested using Xilinx Vivado.
 
 The systolic array is composed of modular Processing Elements (PEs) connected in a grid, where each PE performs multiply-and-accumulate (MAC) operations. This allows for pipelined and parallel computation, which is well-suited for FPGA-based acceleration.
 
